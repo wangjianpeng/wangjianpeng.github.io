@@ -1,0 +1,1 @@
+1.每次screen resized. 都会调用update root rect 方法，这个root 就是viewport 
