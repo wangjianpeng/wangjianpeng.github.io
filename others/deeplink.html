@@ -1,0 +1,47 @@
+ <body>
+    <div id="btn">
+<!--        <button onclick="submitFn()">打开app</button> -->
+        <a href="chapters://?type=1&storytype=1&bookid=10001&bottomid=0" class="a-btn"  style="display: none">安卓</a>
+        <a href="chapters://?type=1&storytype=1&bookid=10001&bottomid=0" class="i-btn" style="display: none">苹果</a>
+    </div>
+  </body>
+<script src="http://m-cdn.saclub.com.cn/app/2.4/js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript">
+     var ua = navigator.userAgent.toLowerCase();
+     var isWeixin = ua.indexOf('micromessenger') != -1;
+     var isAndroid = ua.indexOf('android') != -1;
+     var isIos = (ua.indexOf('iphone') != -1) || (ua.indexOf('ipad') != -1);
+     var d = new Date();
+     var t0 = d.getTime();
+    $(function(){
+//判断执行安卓按钮还是苹果按钮
+         if(isAndroid){
+             $(".a-btn").show();
+          }else{
+              $(".i-btn").show();
+          }
+    });
+    //跳转下载
+    $(".a-btn").click(function(){
+//安卓
+         openApp("chapters://?type=1&storytype=1&bookid=10001&bottomid=0");
+    });
+    $(".i-btn").click(function(){
+//苹果
+         openApp("chapters://?type=1&storytype=1&bookid=10001&bottomid=0");
+    });
+    function openApp(src) {
+    // 通过iframe的方式试图打开APP，如果能正常打开，会直接切换到APP，并自动阻止a标签的默认行为
+    // 否则打开a标签的href链接
+         var delay = setInterval(function(){
+             var d = new Date();
+             var t1 = d.getTime();
+             if( t1-t0<3000 && t1-t0>2000){
+                alert('请下载APP');
+                 window.location.href =src;
+             }
+             if(t1-t0>=3000){
+                  clearInterval(delay);
+             }
+        },2000);
+    }
