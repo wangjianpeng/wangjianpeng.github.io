@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.mars.avgchapters",
+    "sha256_cert_fingerprints":
+    ["6B:8C:D2:BC:BE:0F:B3:86:AF:FE:C9:B5:2A:E2:2A:FE:38:23:CA:8E:64:84:26:7E:D0:81:35:76:31:D1:68:DD"]
+  }
+}]
