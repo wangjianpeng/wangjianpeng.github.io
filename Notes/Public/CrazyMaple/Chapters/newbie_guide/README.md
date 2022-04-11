@@ -16,6 +16,7 @@ Discover_Porn_Alter_A
 ![17+弹窗](./images/UI_17alter.jpg)
 
 3. 多语言
+
 ```
 Key:NewbieGuide/Des (需要新加)
 Vlaue: 参考界面描述"Please select an option to start story.."
@@ -23,5 +24,6 @@ Vlaue: 参考界面描述"Please select an option to start story.."
 Key:BubbleGuide/Skip
 Value:Skip
 ```
+
 ##### 流程图
 ![flowchart](./images/newbieguide.png)
