@@ -1,6 +1,6 @@
-### 新手引导开发文档
-#### 准备工作
-##### 开关
+## 新手引导开发文档
+### 准备工作
+#### 开关
 1. 添加开关
 ```
 is_newbie_guide_condition
@@ -25,5 +25,5 @@ Key:BubbleGuide/Skip
 Value:Skip
 ```
 
-##### 流程图
+### 流程图
 ![flowchart](./images/newbieguide.png)
