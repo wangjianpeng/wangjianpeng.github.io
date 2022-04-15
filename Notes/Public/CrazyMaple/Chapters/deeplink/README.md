@@ -1,7 +1,6 @@
 ## deeplink guide
 
 ### go to visual book
-<!DOCTYPE html>
 <html>
 <body>
 Book Id: <input type="text" id="bookid" value="10064">
@@ -9,7 +8,7 @@ Book Id: <input type="text" id="bookid" value="10064">
 <button type="button" onclick="myFunction()">Try it</button>
 <script>
 function myFunction() {
-  let deeplinkurl = "chapter://?type=1&storytype=1&bookid=" + document.getElementById("bookid") + "&bottomid=0"
+  let deeplinkurl = "chapter://?type=1&storytype=1&bookid=" + document.getElementById("bookid").value + "&bottomid=0"
   console.log(deeplinkurl)
   window.open(deeplinkurl,"_system")
 }
