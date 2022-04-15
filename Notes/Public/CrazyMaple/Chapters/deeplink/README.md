@@ -1,7 +1,9 @@
 ## deeplink guide
 
 ### go to visual book
-
+<!DOCTYPE html>
+<html>
+<body>
 Book Id: <input type="text" id="bookid" value="10064">
 <p>Click the button to change the default value of the text field.</p>
 <button type="button" onclick="myFunction()">Try it</button>
