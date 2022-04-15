@@ -12,8 +12,9 @@ function myFunction() {
   window.open(deeplinkurl)
 }
 </script>
-</body>
 <p><br></p>
+</body>
+
 
 ## go to avator page
 <span style="font-size:1em">[个人信息界面](chapter://?type=3&storytype=0&bookid=0&bottomid=4)</span>
