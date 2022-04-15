@@ -1,7 +1,6 @@
 # deeplink guide
 
 ## go to visual book
-<html>
 <body>
 Book Id: <input type="text" id="bookid" value="10064">
 <p>Click the button to open visual book</p>
@@ -14,13 +13,14 @@ function myFunction() {
 }
 </script>
 </body>
-</html>
-
+<p><br></p>
 
 ## go to avator page
 <span style="font-size:1em">[个人信息界面](chapter://?type=3&storytype=0&bookid=0&bottomid=4)</span>
+<p></p>
+
 ## go to book detail
-<html>
+
 <body>
 Book Id: <input type="text" id="bookid" value="10064">
 <p>Click the button to open visual book detail</p>
@@ -33,7 +33,7 @@ function myFunction() {
 }
 </script>
 </body>
-</html>
+<p><br></p>
 
 ## go to sms 
 [短信大厅](chapter://?type=2&storytype=2&bookid=10001&bottomid=0)
