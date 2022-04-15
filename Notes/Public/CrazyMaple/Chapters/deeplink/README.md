@@ -9,7 +9,7 @@ Book Id: <input type="text" id="bookid" value="10064">
 function myFunction() {
   let deeplinkurl = "chapter://?type=1&storytype=1&bookid=" + document.getElementById("bookid") + "&bottomid=0"
   console.log(deeplinkurl)
-  windown.open(deeplinkurl)
+  window.open(deeplinkurl)
 }
 </script>
 </body>
