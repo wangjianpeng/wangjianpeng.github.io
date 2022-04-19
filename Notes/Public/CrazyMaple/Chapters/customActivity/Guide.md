@@ -1,5 +1,6 @@
 ## 自定义活动前端接入指南
 ### 解析活动类型数据
+
 ```
 Assets/BP/Lua/UI/GameActivities/CustomBanner/UICustomBannerMgr.lua.txt
 
@@ -24,6 +25,7 @@ function M.cacheActivityData(responseJson)
 ```
 
 ### 添加活动入口是否需要显示相关的提示红点
+
 ```
 Assets/BP/Lua/UI/GameActivities/CustomBanner/UICustomBannerMgr.lua.txt
 
@@ -53,6 +55,7 @@ hasAddEnterRecord(bannerId)
 
 ### 添加banner 红点的提示逻辑
 
+
 ```
 Assets/BP/Lua/UI/GameActivities/CustomBanner/UICustomBanner.lua.txt
 
@@ -70,6 +73,7 @@ function M:hasRedCircle()
 ```
 
 ### 添加banner的点击逻辑
+
 
 ```
 Assets/BP/Lua/UI/GameActivities/CustomBanner/UICustomBanner.lua.txt
@@ -91,6 +95,7 @@ end
 ```
 
 ### banner界面修改
+
 
 ```
 Assets/BP/Lua/UI/GameActivities/CustomBanner/UICustomBanner.lua.txt
