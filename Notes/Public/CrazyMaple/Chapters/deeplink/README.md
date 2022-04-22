@@ -38,3 +38,18 @@ function myFunction() {
 
 ## go to sms 
 [短信大厅](chapter://?type=2&storytype=2&bookid=10001&bottomid=0)
+
+## iOS open link from Safari
+<body>
+Appsflyer OneLink: <input type="text" id="af_ios_link" value="https://chaptersapp.onelink.me/Fopm?pid=Share_link&af_dp=chapter%3A%2F%2F&af_force_deeplink=true&deep_link_value=chapter%3A%2F%2F%3Ftype%3D4%26storytype%3D1%26bookid%3D52827%26bottomid%3D2%26fbclid%3DIwAR1s_ywJHQRfkHoH43QoMPnsQq75sFgwhjYz8Vu-9wfXRJXACdh5BdMaxcc">
+<p>launch chapters and open visual book detail</p>
+<button type="button" onclick="myFunction()">LaunchChapters</button>
+<script>
+function myFunction() {
+  let deeplinkurl =document.getElementById("af_ios_link").value
+  console.log(deeplinkurl)
+  window.open(deeplinkurl)
+}
+</script>
+</body>
+<p><br></p>
