@@ -53,3 +53,10 @@ function myFunction() {
 </script>
 </body>
 <p><br></p>
+
+<p ><a href="https://chaptersapp.onelink.me/Fopm?pid=Share_link&af_dp=chapter%3A%2F%2F&af_force_deeplink=true&deep_link_value=chapter%3A%2F%2F%3Ftype%3D4%26storytype%3D1%26bookid%3D52827%26bottomid%3D2%26fbclid%3DIwAR1s_ywJHQRfkHoH43QoMPnsQq75sFgwhjYz8Vu-9wfXRJXACdh5BdMaxcc">Launch:with af_force_deeplink=true</p>
+
+<p ><a href="https://chaptersapp.onelink.me/Fopm?pid=Share_link&af_dp=chapter%3A%2F%2F&af_dp=chapter%3A%2F%2F&deep_link_value=chapter%3A%2F%2F%3Ftype%3D4%26storytype%3D1%26bookid%3D52827%26bottomid%3D2%26fbclid%3DIwAR1s_ywJHQRfkHoH43QoMPnsQq75sFgwhjYz8Vu-9wfXRJXACdh5BdMaxcc">Launch:with af_dp=chapters://</p>
+
+
+<p ><a href="https://chaptersapp.onelink.me/Fopm?pid=Share_link&af_dp=chapter%3A%2F%2F&deep_link_value=chapter%3A%2F%2F%3Ftype%3D4%26storytype%3D1%26bookid%3D52827%26bottomid%3D2%26fbclid%3DIwAR1s_ywJHQRfkHoH43QoMPnsQq75sFgwhjYz8Vu-9wfXRJXACdh5BdMaxcc">Launch:with no af_dp ,no af_force_deeplink</p>
