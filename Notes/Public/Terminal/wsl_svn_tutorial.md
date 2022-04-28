@@ -88,3 +88,10 @@ ZSH_THEME="robbyrussell"
 ZSH_THEME="powerlevel10k/powerlevel10k"
 p10k configure
 ```
+
+## ssh command 
+```
+eval $(ssh-agent)
+chmod 400 privatekey
+ssh-add privatekey
+```
