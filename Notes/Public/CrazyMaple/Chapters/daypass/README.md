@@ -25,4 +25,4 @@ BookLibraryService:UpdateDaypassList(resp.data.add_props.pass_list)
 
 ![activehourpass](../images/activehourpass.png)
 
-ps:道具卡比如hourpass,daypass 可以激活指定书籍，效果也是在有效期间，免费阅读书籍。
+ps:道具卡比如hourpass,daypass 可以激活指定书籍，效果也是在有效期间，免费阅读书籍。基本不用修改这个流程.
